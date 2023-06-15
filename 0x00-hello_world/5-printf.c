@@ -1,13 +1,13 @@
 #include <stdio.h>
 /**
- * main - Entry point
- *
- * Description : A C program that prints with printf function.
- *
- * Return : Always 0 succes
- *return value : is succeful and always with 0
- * main : is entry point
+* Description: A program with C language.
+* function main - Entry point of the program.
+* Return value : always 0 (success).
+* main - A program that print a line using the printf.
 */
-int main(void) {printf ("with proper grammar, but the outcome is a piece of art.\n");
-return(0);
+int main(void)
+{
+printf("with proper grammar, but the outcome is a piece of art,\n");
+return (0);
 }
+
