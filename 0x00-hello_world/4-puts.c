@@ -1,10 +1,11 @@
 #include <stdio.h>
 /**
-* main - A program that print a line with puts function.
-* Return : 0 success
+* Description: A program with C language that prints a line with puts function.
+* function main - Entry point of the program.
+* Return value : always 0 (success).
 */
-int main(void) 
+int main(void)
 {
 puts("\"Programming is like building a multilingual puzzle");
-return(0);
+return (0);
 }
