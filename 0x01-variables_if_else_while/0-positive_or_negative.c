@@ -1,4 +1,9 @@
-*  main - A program that postive or negative.
+#include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
+
+/**
+ *  main - A program that postive or negative.
  *  Return: Always 0 (Success)
 */
 int main(void)
@@ -20,4 +25,3 @@ else
 printf("%d is negative\n", n);
 }
 return (0);
-}
