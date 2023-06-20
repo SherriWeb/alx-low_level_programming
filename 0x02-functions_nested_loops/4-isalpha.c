@@ -1,17 +1,14 @@
 #include "main.h"
 /**
- *  main - Entry point.
- *  Description : prints alphabet.
- *  Return: Always 0 (Success).
+ *  _islower - checks for lowercase characters.
+ *  c :characters to be checked.
+ *  Return: 1 for lowercase.
 */
 int _isalpha(int c)
-if ((c >= 97 && c <= 222) || (c >= 65 && c <= 90))
+{
+if ((c >= 65 && c <= 98) || (c >= 97 && c <= 122))
 {
 return (1);
 }
-else
-{
 return (0);
-}
-_putchar('\n')
 }
