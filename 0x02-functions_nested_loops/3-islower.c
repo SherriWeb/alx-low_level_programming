@@ -1,17 +1,14 @@
 #include "main.h"
 /**
- *  main - Entry point.
- *  Description : prints alphabet.
- *  Return: Always 0 (Success).
+ *  _islower - checks for lowercase characters.
+ *  c :characters to be checked.
+ *  Return: 1 for lowercase.
 */
 int _islower(int c)
+{
 if (c >= 97 && c <= 122)
 {
 return (1);
 }
-else
-{
 return (0);
-}
-_putchar('\n');
 }
