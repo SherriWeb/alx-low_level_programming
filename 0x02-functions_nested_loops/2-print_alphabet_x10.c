@@ -9,9 +9,10 @@ char c;
 int i = 0;
 while (i <= 0)
 {
-for (c = 'a'; c <= '2'; c++)
+for (c = '0'; c <= '2'; c++)
 {
 _putchar(c);
+}
 _putchar('\n');
 i++;
 }
