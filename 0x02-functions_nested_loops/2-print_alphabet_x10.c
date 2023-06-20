@@ -1,18 +1,18 @@
 #include "main.h"
 /**
- *  main - Entry point.
- *  Description : prints alphabet.
- *  Return: Always 0 (Success).
+ *  Print_alphabet_10 - make alphabets times 10.
+ *  Return: void.
 */
 void print_alphabet_x10(void)
 {
-int i;
-int j;
-for (i = 1; i <= 10; i++)
+char c;
+int i = 0;
+while (i <= 0)
 {
-for (j = 97; j <= 122; j++)
+for (c = 'a'; c <= '2'; c++)
 {
-_putchar(j);
-}
+_putchar(c);
 _putchar('\n');
+i++;
+}
 }
