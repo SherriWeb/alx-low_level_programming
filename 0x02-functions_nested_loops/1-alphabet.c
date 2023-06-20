@@ -1,15 +1,14 @@
 #include "main.h"
 /**
- *  main - Entry point.
- *  Description : prints alphabet.
- *  Return: Always 0 (Success).
+ *  Print_alphabet function - make the alphabet.
+ *  Return: void.
 */
 void print_alphabet(void)
-int i;
-for (i = 97; i <= 122; i++)
 {
-_putchar(i);
+char c;
+for (c = 'a'; c <= 'z'; c++)
+{
+_putchar(c);
 }
 _putchar('\n');
 }
-
