@@ -1,5 +1,6 @@
 #include "main.h"
 #include <string.h>
+#include <stdio.h>
 /**
  *  puts_recursion - Entry point.
  *  Description:Writing a function that prints a string in reverse.
@@ -15,5 +16,5 @@ return;
 s++;
 _print_rev_recursion(s);
 s--;
-_putchar(*s);
+putchar(*s);
 }
